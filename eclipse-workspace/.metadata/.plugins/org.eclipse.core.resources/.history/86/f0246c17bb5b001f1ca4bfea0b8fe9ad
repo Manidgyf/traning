@@ -1,0 +1,12 @@
+package bulliProject;
+
+public class ProjectManager extends Employee {
+
+	final char catgeory = 'P';
+	@Override
+	public double calSal() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

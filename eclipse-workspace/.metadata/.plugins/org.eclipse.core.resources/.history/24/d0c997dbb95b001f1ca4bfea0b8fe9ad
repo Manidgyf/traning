@@ -1,0 +1,5 @@
+package bulliProject;
+
+public interface Employee {
+
+}

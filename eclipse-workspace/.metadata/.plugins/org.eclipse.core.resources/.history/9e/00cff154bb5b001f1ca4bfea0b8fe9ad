@@ -1,0 +1,12 @@
+package bulliProject;
+
+public class TechnicalAssociate extends Employee {
+
+	
+	@Override
+	public double calSal() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

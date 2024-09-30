@@ -1,0 +1,61 @@
+localhost:8081/multiplex/addowner
+{
+    "multiplexOwnerName":"karthik",
+    "multiplexOwnerMail":"raj@raj.com",
+    "foreignUserId":"123"
+}
+
+
+localhost:8081/multiplex/addmultiplex/1
+{
+    "multiplexName":"karthik",
+    "multiplexLocation":"raj@raj.com",
+    "numberOfScreens":"12",
+    "allTimeSlots":[
+        "2023-09-16T10:00:00",
+        "2023-07-26T11:00:00"
+    ],
+    "availableScreensPerTimeslot":{
+        "2023-09-16T10:00:00":100
+    },
+    "seatTypeConfig":{
+        "silver":{
+            "beginning":0,
+            "ending":20
+        }
+    },
+    "ticketTypePrice":{
+        "silver":100,
+        "gold":300,
+        "premium":500
+    }
+
+}
+
+
+localhost:8081/multiplex/addmovie/52
+
+{
+    "movieName":"Deadpool and wovlerine and someone",
+    "movieRating":"R",
+    "movieGenre":"Action",
+    "movieDescription":"movie desc",
+    "moviePoster":"http:/",
+    "movieDuration":"2 hours"
+}
+
+localhost:8081/multiplex/addscreening/1
+{
+    "timeSlot":"2023-09-16T10:00:00",
+    "availableSeats":["1","2","3","4"],
+    "bookedSeats":[1,2,3,4]
+}
+
+
+localhost:8081/multiplex/bookseats/1
+[11,12,13]
+
+
+drop tables all_time_slots, available_screens_per_timeslot, available_seats, booked_seats, movie, movie_seq, multiplex, multiplex_owner, multiplex_owner_seq, multiplex_seq, screening,screening_seq, seat_type_config, ticket_type_price;
+
+drop tables all_time_slots, available_screens_per_timeslot, available_seats, booked_seats, movie, movie_seq, multiplex, multiplex_owner, multiplex_owner_seq, multiplex_seq, screening,screening_seq, seat_type_config, ticket_type_price;

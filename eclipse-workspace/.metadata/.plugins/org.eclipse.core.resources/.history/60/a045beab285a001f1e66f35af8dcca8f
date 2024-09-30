@@ -1,0 +1,5 @@
+package com.seedBank.login;
+
+public class LoginDetails {
+
+}

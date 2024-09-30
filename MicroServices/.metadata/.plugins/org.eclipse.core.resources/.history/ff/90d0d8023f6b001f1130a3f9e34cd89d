@@ -1,0 +1,11 @@
+package com.model;
+
+public class Student {
+	
+	private String sName;
+	private String schoolName;
+	private String sec;
+	private String secname;
+
+
+}

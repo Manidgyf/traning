@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=spring-demo/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.model{InterestCalculator.java[InterestCalculator" modifiers="513" timestamp="1724820055991"/>
+    <typeInfo handle="=spring-jdbc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.service{EmployeeService.java[EmployeeService" modifiers="513" timestamp="1725010494428"/>
+    <typeInfo handle="=spring-jdbc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dao{InsuranceDao.java[InsuranceDao" modifiers="513" timestamp="1724991587999"/>
+    <typeInfo handle="=spring-jdbc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dao{BankDao.java[BankDao" modifiers="513" timestamp="1724993311359"/>
+    <typeInfo handle="=WebProject/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.service{UserDao.java[UserDao" modifiers="513" timestamp="1725274742561"/>
+</typeInfoHistroy>

@@ -1,0 +1,4 @@
+spring.application.name=Student-Service-registry
+server.port=7777
+eureka.client.registerWithEureka=false
+eureka.client.fetchRegistry=false

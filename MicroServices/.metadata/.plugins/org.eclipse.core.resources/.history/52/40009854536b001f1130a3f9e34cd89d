@@ -1,0 +1,3 @@
+spring.application.name=Student-Service-ms
+server.port=8081
+eureka.clien.serviceurl.deafualtZone=http://localhost:7777/eureka/

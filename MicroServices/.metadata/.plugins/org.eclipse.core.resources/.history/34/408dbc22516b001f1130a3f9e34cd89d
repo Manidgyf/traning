@@ -1,0 +1,13 @@
+package com.example.Student_Service_registry;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class StudentServiceRegistryApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(StudentServiceRegistryApplication.class, args);
+	}
+
+}

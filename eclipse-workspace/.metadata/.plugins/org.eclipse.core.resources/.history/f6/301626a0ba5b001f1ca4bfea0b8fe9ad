@@ -1,0 +1,12 @@
+package bulliProject;
+
+public abstract class Employee {
+	
+	int id;
+	String category;
+	int wages;
+	int years;
+	
+	public abstract double calSal();
+	
+}
